@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "API client for Animemap API",
    "author" : [
       "papix <mail@papix.net>"
    ],
@@ -43,6 +43,12 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Class::Accessor::Lite" : "0",
+            "Class::Accessor::Lite::Lazy" : "0",
+            "Encode" : "0",
+            "Furl" : "0",
+            "JSON" : "0",
             "perl" : "5.008005"
          }
       },
@@ -53,5 +59,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/papix/WWW-Animemap-API/issues"
+      },
+      "homepage" : "https://github.com/papix/WWW-Animemap-API",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/papix/WWW-Animemap-API.git",
+         "web" : "https://github.com/papix/WWW-Animemap-API"
+      }
+   },
    "version" : "0.01"
 }

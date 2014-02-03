@@ -53,15 +53,24 @@ __END__
 
 =head1 NAME
 
-WWW::Animemap::API - It's new $module
+WWW::Animemap::API - API client for Animemap API
 
 =head1 SYNOPSIS
 
     use WWW::Animemap::API;
 
+    my $client = WWW::Animemap::API->new();
+    
+    # Get anime list that can be watched in Osaka 
+    my $list = $client->list('osaka');
+
 =head1 DESCRIPTION
 
-WWW::Animemap::API is ...
+WWW::Animemap::API is API client for Animemap API.
+Please refer http://animemap.net/pages/api/ about Animemap API.
+
+If you have a lot of access to this API, you may have access restricted by Animemap API's administer. 
+Please cache and reuse the API result, if you expect a lot of access.
 
 =head1 LICENSE
 
