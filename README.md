@@ -17,8 +17,8 @@ WWW::Animemap::API - API client for Animemap API
 WWW::Animemap::API is API client for Animemap API.
 Please refer http://animemap.net/pages/api/ about Animemap API.
 
-If you have a lot of access to this API, you may have access restricted by Animemap API's administer. 
-Please cache and reuse the API result, if you expect a lot of access.
+If you access this API many times, Animemap API's administer restricts your access possibly.
+Thus, you should cache the results of this API and reuse them, if you need to access this API many times.
 
 # LICENSE
 
